@@ -1,0 +1,16 @@
+# 人脸识别作业
+功能：上传图片，自动检测并框选出人脸
+
+## 使用库
+- streamlit：网页展示
+- opencv-python：图像处理与人脸检测
+- face-recognition：人脸识别核心库
+- dlib：face-recognition依赖环境
+
+## 运行命令
+streamlit run 人脸识别.py
+
+## 使用方法
+1. 安装依赖：pip install -r requirements.txt
+2. 运行命令启动网页
+3. 上传图片即可自动框出人脸
